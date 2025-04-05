@@ -1,0 +1,80 @@
+ul  {
+    /* list-style: none; стиль нурмерации  */
+    list-style: decimal inside;
+    background-color: aquamarine;
+    padding: 10px;
+}
+/* } если через , то на то и другое применяется  */
+/* inside - расположение*/
+
+
+ul li{
+    margin: 10px;
+    background-color: blue;
+} 
+/* } это обозначает что в ul находится li и она будит прии нимать стиль( может быть и боьше главная последняя будет принимать все стили) */
+
+span
+{
+    background-color: brown;
+    padding: 0 5px; 
+}
+
+img{
+    width:200px ;
+    border: 1px solid red;
+    border-radius:  50%;
+    transition: 1s; /*- задержка при наведении  */
+}
+img:hover 
+{
+   height: 75px;
+   width: 75px;
+   border-radius: 50%;
+    transition: 1s; /*- задержка при наведении  */
+}
+/* hover - стили при на видениее на что то  */
+
+/* li::before
+{
+    content: '';
+    display: inline-block; 
+    width:20px ;
+    height: 20px;
+    background-image: url(/img/notes_6119910.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+} */
+
+.parent {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    height: 100%;
+  }
+  .child {
+    width: 40%;
+    height: 40%;
+  }
+  
+  hr 
+  {
+     width: 2px;
+  }
+
+  #zzz
+  {
+/* запись id  */
+  }
+
+  .parentNow {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+  }
+  .childNow {
+    padding: 2px;
+    order: -1;
+  }
+  
+  
